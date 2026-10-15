@@ -1,0 +1,19 @@
+{
+  "name": "domstolene-skills",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "skills:list": "node scripts/update-readme.mjs --list",
+    "readme:update": "node scripts/update-readme.mjs",
+    "readme:check": "node scripts/update-readme.mjs --check",
+    "skills:install": "node scripts/install-skills.mjs",
+    "skills:remove": "node scripts/remove-skills.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "yaml": "^2.9.1"
+  }
+}
