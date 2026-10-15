@@ -92,7 +92,7 @@ Skriv konkrete instruksjoner under metadataene. `name` må være identisk med
 mappenavnet, maksimalt 64 tegn, og bestå av små bokstaver, tall og enkle bindestreker
 mellom ordene. `description` må være 1–1024 tegn; YAML-flerlinjetekst støttes.
 Lenk eventuelle ressurser relativt fra `SKILL.md`. Se
-[eksempelskillen](./skills/oppsummer-endringer/SKILL.md) og
+[skillen korriger-tilbakemeldinger-i-pr](./skills/korriger-tilbakemeldinger-i-pr/SKILL.md) og
 [Agent Skills-spesifikasjonen](https://agentskills.io/specification).
 
 Alle ikke-skjulte undermapper direkte under `skills/` må være gyldige skills.
