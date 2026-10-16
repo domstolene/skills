@@ -22,6 +22,7 @@ Oversikten mellom markørene genereres av `pnpm readme:update`.
 For å installere en eller flere skills fra repoet, kjør:
 
 ```shell
+pnpm install # trenger yaml-pakken
 pnpm skills:install
 ```
 
