@@ -48,7 +48,7 @@ async function main() {
   const current = await readFile(file, 'utf8');
   const updated = replaceOverview(current, overview);
   if (args[0] === '--check') {
-    if (current !== updated) throw new Error('Skill-oversikten er utdatert. Kjør npm run readme:update.');
+    if (current !== updated) throw new Error('Skill-oversikten er utdatert. Kjør pnpm readme:update.');
     console.log('Skill-oversikten er oppdatert.');
     return;
   }

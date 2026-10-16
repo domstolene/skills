@@ -9,6 +9,7 @@ med en `SKILL.md` som inneholder YAML-metadata og instruksjoner.
 
 | Skill | Beskrivelse |
 | --- | --- |
+| [code-navigation](./skills/code-navigation/SKILL.md) | Activate whenever one needs to navigate, locate, read, or understand source code. Use CodeGraph for code exploration, symbols, file structure, source reading, call relationships, task context, and change impact instead of grep, ripgrep, glob, or raw file reads. |
 | [korriger-tilbakemeldinger-i-pr](./skills/korriger-tilbakemeldinger-i-pr/SKILL.md) | Korriger tilbakemeldinger i en pull request ved å bruke GitHub kommandolinje. |
 
 <!-- skills:end -->
