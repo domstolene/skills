@@ -31,8 +31,8 @@ Skriptet oppretter én symbolsk lenke per valgt skill i hver av mappene
 i hjemmemappen:
 
 ```text
-~/.agent/skills/oppsummer-endringer -> /sti/til/klonen/skills/oppsummer-endringer
-~/.copilot/skills/oppsummer-endringer -> /sti/til/klonen/skills/oppsummer-endringer
+~/.agent/skills/lag-pr -> /sti/til/klonen/skills/lag-pr
+~/.copilot/skills/lag-pr -> /sti/til/klonen/skills/lag-pr
 ```
 
 Uten argumenter viser skriptet en nummerert meny. Skriv ett eller flere nummer
@@ -47,7 +47,7 @@ git pull origin main
 Dersom du vet hvilken skill du ønsker, kan du angi det som parametre på kommandolinje:
 
 ```shell
-pnpm skills:install -- oppsummer-endringer
+pnpm skills:install -- lag-pr
 pnpm skills:install -- --all
 pnpm skills:install -- --list
 pnpm skills:install -- --help
