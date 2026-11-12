@@ -10,6 +10,7 @@ med en `SKILL.md` som inneholder YAML-metadata og instruksjoner.
 | Skill | Beskrivelse |
 | --- | --- |
 | [code-navigation](./skills/code-navigation/SKILL.md) | Activate whenever one needs to navigate, locate, read, or understand source code. Use CodeGraph for code exploration, symbols, file structure, source reading, call relationships, task context, and change impact instead of grep, ripgrep, glob, or raw file reads. |
+| [code-refactoring](./skills/code-refactoring/SKILL.md) | Use ast-grep for structural code search, AST pattern matching, constrained rewrites, codemods, and API migrations. Activate when a task depends on syntax shape, arguments, or enclosing constructs rather than symbol identity. Complements code-navigation (CodeGraph); not for general exploration, callers, dependencies, impact analysis, or semantic symbol renaming. |
 | [git-commit](./skills/git-commit/SKILL.md) | Whenever you make a commit, use this skill. |
 | [korriger-tilbakemeldinger-i-pr](./skills/korriger-tilbakemeldinger-i-pr/SKILL.md) | Korriger tilbakemeldinger i en pull request ved å bruke GitHub kommandolinje. |
 | [lag-pr](./skills/lag-pr/SKILL.md) | Hjelper med å fylle ut hva som er gjort og hvorfor på en strukturert måte |
